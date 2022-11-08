@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Full Review-Berenice Marchetti</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    <main>
+        <form id="main-form" name="mainform">
+            <div>
+                <label for="number">Enter your numbers separated by spaces: </label>
+                <input type="text" name="number" id="number">
+            </div>
+            <div>
+                <input type="radio" name="choice" id="autoSum" value="autoSum" checked>
+                <label for="autoSum">AutoSum</label>
+            </div>
+            <div>
+                <input type="radio" name="choice" id="average" value="average">
+                <label for="average">Average</label>
+            </div>
+            <div>
+                <input type="radio" name="choice" id="max" value="max">
+                <label for="max">Max</label>
+            </div>
+            <div>
+                <input type="radio" name="choice" id="min" value="min">
+                <label for="min">Min</label>
+            </div>
+            <div class="btn-main">
+                <button id="calculate" class="btn">Calculate</button>
+            </div>
+        </form>
+            
+        <div id="output">
+            <div>
+                <p id="result">Result :</p>
+            </div>
+        </div>
+    </main>
+        
+    <footer>
+        <p>
+        ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - Berenice Marchetti
+        </p>
+    </footer>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <form id="main-form" name="mainform">
+            <div class="form-name">
+                <label for="fname">First name :</label>
+                <input type="text" id="fname" required>
+            </div>
+            <div class="form-name">
+                <label for="lname">Last name :</label>
+                <input type="text" id="lname" required >
+            </div>
+            <div class="form-name">
+                <label for="email">Email Address :</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-name">
+                <label for="address">Address :</label>
+                <input type="text" id="address" required>
+            </div>
+            <div class="form-name">
+                <label for="city">City :</label>
+                <input type="text" id="city" required>
+            </div>
+            <div class="form-name">
+                <label for="prov">Province :</label>
+                <input type="text" id="prov" required>
+            </div>
+            <legend class="form-name"> Membership :</legend>
+                <!--We have to give the same name for each input radio for defining a group-->
+            <div class="form-member">
+                <input type="radio" name="btn" id="prem" value="Premium" checked>
+                <label for="prem">Premium Membership</label>
+            </div>
+            <div class="form-member">
+                <input type="radio" name="btn" id="stan" value="Standart">
+                <label for="stan">Standart Membership</label>
+            </div>
+            <div class="form-member">
+                <input type="radio" name="btn" id="basic" value="Basic">
+                <label for="basic">Basic Membership</label>
+            </div>
+
+            <div class="btn-main">
+                <button id="send" class="btn">Subscribe</button>
+            </div>
+            <div class="btn-main">
+                <button type="reset" class="btn">Cancel</button>
+            </div>
+        </form>
+
+        <div id="output">
+            <p id="name_"></p>
+        </div>
+    
+    </main>
+    <footer>
+        <p>
+        ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - Berenice Marchetti
+        </p>
+    </footer>
+        
+    
+    <script src="js\script.js"></script>
+</body>
+</html>
